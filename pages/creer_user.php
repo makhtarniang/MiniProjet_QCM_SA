@@ -9,7 +9,7 @@
 	<div class="contener">
 		<div class="haut">
 			<div> <img class="img1" src="../asset/img/Images/logo-QuizzSA.png"></div>
-			<div> <center><h2 class="text1"> Le plaisir de jouer</h2> </center></div>
+			<div> <center><h2 class="text1"> Binvenue sur la page d'inscription</h2> </center></div>
 		</div>
 		<div class="form_joueur">
 			<div class="form_joueur1">
@@ -46,14 +46,12 @@
 		</div>
 	</div>
 	<?php
-	include('scripte!.php');
+#	include('scripte!.php');
 if (isset($_POST['valid'])) {
 	$n=strtolower(substr(strrchr($_FILES['image']['name'], '.'), 1));
 	for ($i=0; $i <count($contenu) ; $i++) { 
 		if ($_POST['login']==$contenu[$i]['login']) {
-			?>
-			<center><h2>Ce login existe !</h2></center>
-			<?php
+			
 			exit;
 		}
 	}
@@ -105,7 +103,8 @@ if(isset($_POST['register'])){
 
      //Verifier si le username est deja utilisé.
     if($row['num'] > 0){
-        die('Cet user existe déja!');
+		die('Cet user existe déja!');
+		
     }
 
     //Hasher le mot de passe grace à notre librairie avant de l'enregistrer.
@@ -126,7 +125,30 @@ if(isset($_POST['register'])){
         // Rediriger l'utilisateur apres son inscription
         $_SESSION['username'] = $username;
         $_SESSION['logged_in'] = time();
-        header('location:src/interface_user.php');
+        header('location:interface_user.php');
     }
 
 }
+
+?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<!--<h1>Register</h1>
+<form action="register.php" method="post">
+    <label for="prenom">Prenom</label>
+    <input type="text" id="prenom" name="prenom"><br>
+    <label for="nom">Nom</label>
+    <input type="text" id="nom" name="nom"><br>
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password"><br>
+    <input type="submit" name="register" value="Register">
+</form>
+</body>
+</html>

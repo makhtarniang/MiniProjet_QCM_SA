@@ -1,0 +1,245 @@
+[
+    {
+        "question": "cocher les langages de progammation",
+        "point": "4",
+        "type": "type checkbox",
+        "reponse": {
+            "c": "true",
+            "java": "true"
+        }
+    },
+    {
+        "question": " Quelle est la capitale du maroc",
+        "point": "3",
+        "type": "type checkbox",
+        "reponse": {
+            "Rabat": "true",
+            "thies": "false"
+        }
+    },
+    {
+        "question": "corona est une maladie",
+        "point": "2",
+        "type": "type radio",
+        "reponse": {
+            "oui": "true",
+            "non": "false"
+        }
+    },
+    {
+        "question": "sida est une maladie",
+        "point": "2",
+        "type": "type radio",
+        "reponse": {
+            "oui": "true",
+            "non": "false"
+        }
+    },
+    {
+        "question": "capital du senegal",
+        "point": "4",
+        "type": "type texte",
+        "reponse": "dakar"
+    },
+    {
+        "question": "capital de la france ",
+        "point": "6",
+        "type": "type texte",
+        "reponse": "paris"
+    },
+    {
+        "question": " cocher les fruits",
+        "point": "2",
+        "type": "type checkbox",
+        "reponse": {
+            "pomme": "true",
+            "banane": "true",
+            "rouge": "false",
+            "orange": "true"
+        }
+    },
+    {
+        "question": "capital mali",
+        "point": "2",
+        "type": "type radio",
+        "reponse": {
+            "dakar": "false",
+            "bamako": "true"
+        }
+    },
+    {
+        "question": "capital italie",
+        "point": "2",
+        "type": "type texte",
+        "reponse": "rome"
+    },
+    {
+        "question": "Les regions du senegal ?",
+        "point": "3",
+        "type": "type checkbox",
+        "reponse": {
+            "dakar": "true",
+            "thies": "true",
+            "Mbour": "false"
+        }
+    },
+    {
+        "question": "le 10 Aout est mon annif",
+        "point": "3",
+        "type": "type radio",
+        "reponse": {
+            "oui": "true",
+            "non": "false"
+        }
+    },
+    {
+        "question": "le 1er mai est un jour de ferie",
+        "point": "1",
+        "type": "type radio",
+        "reponse": {
+            "oui": "true",
+            "non": "false"
+        }
+    },
+    {
+        "question": "Qui est le president du senegal",
+        "point": "13",
+        "type": "type radio",
+        "reponse": {
+            "wade": "false",
+            "senghor": "false",
+            "Macky": "true",
+            "Diouf": "false"
+        }
+    },
+    {
+        "question": "Quelle est la capitae de la france",
+        "point": "10",
+        "type": "type radio",
+        "reponse": {
+            "Tokyo": "false",
+            "Marseille": "false",
+            "Paris": "true"
+        }
+    },
+    {
+        "question": "Quelle est la capitae de la france",
+        "point": "10",
+        "type": "type radio",
+        "reponse": {
+            "Tokyo": "false",
+            "Marseille": "false",
+            "Paris": "true"
+        }
+    },
+    {
+        "question": "Qui est Zinedine zidane",
+        "point": "6",
+        "type": "type radio",
+        "reponse": {
+            "Un journaliste": "false",
+            "Un ecrivain": "false",
+            "Un ancien footballeur": "true"
+        }
+    },
+    {
+        "question": "Quelle est la femelle du chat?",
+        "point": "3",
+        "type": "type checkbox",
+        "reponse": {
+            "Chienne": "false",
+            "souris": "false",
+            "Chatte": "true"
+        }
+    },
+    {
+        "question": "Quelle est la somme de deux faces oppos\u00e9es sur un d\u00e9 \u00e0 jouer?",
+        "point": "8",
+        "type": "type radio",
+        "reponse": {
+            "7": "true",
+            "6": "false",
+            "9": "false"
+        }
+    },
+    {
+        "question": "Comment appelle-t-on un sol fertile tr\u00e8s riche en humus? ",
+        "point": "15",
+        "type": "type radio",
+        "reponse": {
+            "La laterite": "false",
+            "La terre noire": "true",
+            "L'erg": "false"
+        }
+    },
+    {
+        "question": "Le systeme binaire utilise la base?",
+        "point": "4",
+        "type": "type radio",
+        "reponse": {
+            "10": "false",
+            "9": "false",
+            "8": "false",
+            "2": "true",
+            "4": "false"
+        }
+    },
+    {
+        "question": "Laquelle des memoires suivant est non volatile?",
+        "point": "7",
+        "type": "type radio",
+        "reponse": {
+            "SRAM": "false",
+            "ROM": "true",
+            "DRAM": "false"
+        }
+    },
+    {
+        "question": "Lequel des syst\u00e8mes d'exploitation suivants est produit par IBM?",
+        "point": "5",
+        "type": "type radio",
+        "reponse": {
+            "OS-2": "true",
+            "Windows": "false",
+            "UNIX": "false"
+        }
+    },
+    {
+        "question": "Les parametres Windows sont enregistr\u00e9s dans -----?",
+        "point": "5",
+        "type": "type radio",
+        "reponse": {
+            "WINDOWS.INI": "false",
+            "WIN.INI": "true",
+            "SYSTEM.INI": "false",
+            "GROUP.INI": "false"
+        }
+    },
+    {
+        "question": "Une vente s'enregistre \u00e0 partir......?",
+        "point": "9",
+        "type": "type radio",
+        "reponse": {
+            "du bon de livraison sign\u00e9e par le client": "false",
+            "de la facture adress\u00e9e au client": "true"
+        }
+    },
+    {
+        "question": "Quel est le nom de modou?",
+        "point": "3",
+        "type": "type radio",
+        "reponse": {
+            "Sarr": "true",
+            "Dieng": "false",
+            "Ndiaye": "false"
+        }
+    },
+    {
+        "question": "qulle sont les eleves",
+        "point": "2",
+        "type": "type checkbox",
+        "reponse": {
+            "1": "true"
+        }
+    }
+]
